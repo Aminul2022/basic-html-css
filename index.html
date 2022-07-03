@@ -4,15 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>basic HTML CSS sample project</title>
+    <title>Fantastic Travelling Blog</title>
+
+    <style>
+        .blog{
+            background-color: rgba(125, 152, 175, 0.729);
+            border: 5px solid yellowgreen;   /* border takes three parameters*/
+            border-radius: 15px; /* border-radius is used to make curve in corner sides*/
+            /* margin: 40px 10px 80px 100px;*/ 
+            margin-top: 25px;
+            margin-left: 20px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+          /* padding: 20px 40px 30px 50px; */ /*clockwise value will be assigned if 4 values given*/
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 25px;
+            padding-bottom: 40px;
+
+        }
+
+        .author-name{
+            color: red;
+        }
+
+        .blog-title{
+            text-align: center;
+            font-size: 2em;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+        }
+
+        .blog p{
+            color: rebeccapurple;
+            text-align: justify;
+        }
+
+    </style>
+
 </head>
 <body>
 
-    <h1>Sample test push github</h1>
-    <h2>Basic HTML and CSS</h2>
-    <h3>New code changed</h3>
-    <h4>check push to github</h4>
-    <h5>This is h5</h5>
+    <!-- 
+        Home work: Difference between Inline and block elements in CSS?
+        Text Align, Display, Inline, Block, Inline-Block.
+        Inline elements: <span>, <small>, anchor <a>, <b>, <button>, <img>, <input>
+                      Inline elements never start from a new line and only cover the width 
+                      according to the size of bounded tags in the HTML element
+        Block elements: <div>, paragraph <p>, <h1><h6>
+                      Block elements in HTML begin on a new line and occupy the complete horizontal space of its parent element 
+                      and have the same height as the content  
+     -->
     
+    <!-- 
+        Padding, Different Ways To Set Padding, CSS Box Model.
+        padding: create space around an element's content, inside of any defined borders
+
+        CSS Box Model: Any container how much space will be taken depends on 4 things
+        1. width and height property for content
+        2. padding property
+        3. border property
+        4. margin property
+
+     -->
+
+    <!-- 
+        Border, Border Radius, Margin, Different Ways To Set Margin.
+        Margin: Margin used to create gaps among website pages walls
+            margin: 40px 10px 80px 100px;
+            margin-top: 25px;
+            margin-left: 20px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+        
+     -->
+
+    <!-- 
+        Style A Group Of Elements, Style A Small Portion Of Text.
+        Inside <div></div> put all other tags to create a separate container for each section.
+        Then can play with CSS colors or different things
+     -->
+
+    <h1>Welcome to Fantastic Travelling Blog</h1>
+
+    <div class="blog">
+        <h3 class="blog-title">My Sajek tour during Winter</h3>
+        <small>Author: <span class="author-name">Traveller Hero Alom</span> </small>
+        <p> Pahar gash pani and mati. <strong>Neel Akash.</strong> Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash. 
+            Pahar gash pani and mati. Neel Akash. Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash.
+            Pahar gash pani and mati. Neel Akash. Vorer batash. 
+        </p>
+        <p>
+            another pargraph. <span>some more text</span> <a href="www.google.com"> visit Google <p>another internal paragraph</p></a>
+        </p>
+    </div>
+
+    <div class="blog">
+        <h3 class="blog-title">Saint Martin tour with special one</h3>
+        <small>Author: <span class="author-name">Traveller Hero Alom</span></small>
+        <p>
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny. 
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+        </p>
+    </div>
+    
+    <div class="blog">
+        <h3 class="blog-title">Sundorban tour with Bhag mama</h3>
+        <small>Author: Traveller Hero Alom</small>
+        <p>
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny. 
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+            Pani and Pani with my honey. This is my bunny. Day was sunny. I was funny.
+        </p>
+    </div>
+
 </body>
 </html>
